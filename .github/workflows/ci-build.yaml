@@ -13,7 +13,7 @@ jobs:
   steps:
     # This step checks out a copy of your repository.
     - name: My first step - check out repository
-      uses: actions/checkout@v5
+      uses: actions/checkout@v2
     
     - name: echo
       run: echo "hi"
