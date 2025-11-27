@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: debian-12
+    runs-on: ubuntu-latest
   steps:
     # This step checks out a copy of your repository.
     - name: My first step - check out repository
